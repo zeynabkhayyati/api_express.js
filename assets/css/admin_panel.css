@@ -1,0 +1,104 @@
+body{
+    margin-top: 50px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4a4a4a;
+    height: 100%;
+    font-family: "mikhak";
+    gap: 30px;
+    
+    position: relative;
+}
+.all{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+@font-face{
+    font-family: mikhak;
+    src: url(../fonts/Mikhak-Black.ttf);
+}
+.users{
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 0px 5px 3px black;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+}
+.username{
+    color: white;
+    font-size: 20px;
+    margin: 5px;
+    
+}
+.icon{
+    background-color: white;
+    color: gray;
+    font-size: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    height: 50px;
+    width: 45px;
+    display: flex;
+    box-shadow: 0px 0px 10px 3px black;
+}
+button{
+    font-size: 17px;
+    padding: 5px;
+    font-family: "mikhak";
+    border-radius: 10px;
+    width: 80px;
+    box-shadow: 0px 0px 10px 3px black;
+    cursor: pointer;
+}
+.edit{
+    background-color: rgb(39, 255, 39);
+}
+.delete{
+    background-color: rgb(255, 29, 29);
+}
+.edit-user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: rgb(255, 176, 18);
+    border-radius: 10px;
+    padding: 50px;
+    gap: 15px;
+    box-shadow: 0px 0px 10px 3px black;
+}
+input{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 3px black;
+    text-align: center;
+}
+.none{
+    display: none;
+}
+.edit-div{
+    /*display: flex;*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 10px;
+    padding: 50px;
+    gap: 15px;
+    top: 200px;
+    display: none;
+}
